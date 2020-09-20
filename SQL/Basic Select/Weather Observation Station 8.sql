@@ -1,0 +1,1 @@
+select DISTINCT(CITY) from station where city regexp '[aeiou]$' and city in (SELECT DISTINCT(CITY) FROM STATION WHERE CITY REGEXP '^[aeiou]');

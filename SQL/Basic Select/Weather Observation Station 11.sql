@@ -1,0 +1,2 @@
+SELECT DISTINCT CITY FROM STATION
+WHERE CITY not REGEXP '^[aeiou].*[aeiou]$';
